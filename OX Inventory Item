@@ -1,0 +1,14 @@
+	["armor"] = {
+		label = "Schutzweste",
+		weight = 9000,
+		stack = false,
+		close = false,
+		consume = 0,
+		client = {
+			anim = { dict = 'clothingshirt', clip = 'try_shirt_positive_d' },
+			usetime = 1500
+		},
+		server = {
+			export = 'mlrp_bulletproofvest.use_bulletproofvest'
+		}
+	},
